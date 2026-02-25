@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install gsap @gsap/react)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(node -e \"const gsap = require\\(''/Users/joelmik/Code/flex-offices/node_modules/gsap''\\); console.log\\(Object.keys\\(gsap\\).filter\\(k => /flip/i.test\\(k\\)\\)\\)\")"
+    ]
+  }
+}
