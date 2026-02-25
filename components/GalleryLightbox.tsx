@@ -19,7 +19,7 @@ export default function GalleryLightbox({
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const container = containerRef.current;
+    const container = containerRef.current!;
     if (!container) return;
 
     const elements = {
