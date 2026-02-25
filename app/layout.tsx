@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FlexHoorn – Kantoorruimte in Hoorn",
+  title: "Flex Offices – Kantoorruimte in Hoorn",
   description:
-    "Moderne en flexibele kantoorruimte in het hart van Hoorn. Voor zzp'ers en kleine teams.",
+    "Moderne en flexibele kantoorruimte. Voor zzp'ers en kleine teams.",
 };
 
 export default function RootLayout({
