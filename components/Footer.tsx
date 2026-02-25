@@ -36,7 +36,7 @@ export default function Footer() {
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} FlexHoorn. Alle rechten voorbehouden.
+            © {new Date().getFullYear()} Flex Offices. Alle rechten voorbehouden.
           </p>
         </div>
       </div>

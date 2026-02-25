@@ -38,7 +38,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex flex-col gap-4">
             <span className="text-xs font-semibold tracking-[0.2em] uppercase text-blue-700">
-              Onze ruimtes
+              Onze Flex offices
             </span>
             <h2 className="text-2xl lg:text-3xl font-bold text-slate-900 leading-snug">
               Kantoorruimte die meegroeit met jouw team

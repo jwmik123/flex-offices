@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function Navbar() {
   const navRef = useRef<HTMLElement>(null);
-  const [meerOpen, setMeerOpen] = useState(false);
 
   useGSAP(() => {
     ScrollTrigger.create({
@@ -56,7 +55,7 @@ export default function Navbar() {
             href="/#ruimtes"
             className="text-sm font-medium text-slate-700 hover:text-blue-700 transition-colors duration-200"
           >
-            Ruimtes
+            Over ons
           </Link>
           <Link
             href="/galerij"
@@ -64,43 +63,6 @@ export default function Navbar() {
           >
             Galerij
           </Link>
-
-          {/* Meer dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setMeerOpen((o) => !o)}
-              className="flex items-center gap-1 text-sm font-medium text-slate-700 hover:text-blue-700 transition-colors duration-200"
-            >
-              Meer
-              <svg
-                className={`w-3.5 h-3.5 transition-transform duration-200 ${meerOpen ? "rotate-180" : ""}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            {meerOpen && (
-              <div className="absolute top-full right-0 mt-2 w-40 bg-white border border-slate-100 shadow-xl py-1 z-50">
-                <Link
-                  href="/#over-ons"
-                  onClick={() => setMeerOpen(false)}
-                  className="block px-4 py-2.5 text-sm text-slate-700 hover:text-blue-700 hover:bg-slate-50 transition-colors"
-                >
-                  Over ons
-                </Link>
-                <Link
-                  href="/#contact"
-                  onClick={() => setMeerOpen(false)}
-                  className="block px-4 py-2.5 text-sm text-slate-700 hover:text-blue-700 hover:bg-slate-50 transition-colors"
-                >
-                  Contact
-                </Link>
-              </div>
-            )}
-          </div>
         </div>
 
         {/* CTA */}
