@@ -13,7 +13,7 @@ export default function Footer() {
 
           {/* Logo */}
           <a href="#home" className="text-xl font-bold tracking-tight shrink-0">
-            Flex<span className="text-blue-400">Hoorn</span>
+            Flex<span className="text-blue-400"> Offices</span>
           </a>
 
           {/* Nav links */}
