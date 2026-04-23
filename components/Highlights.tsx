@@ -88,7 +88,7 @@ export default function Highlights() {
               ref={(el) => { if (el) cardRefs.current[i] = el; }}
             >
               <span className="text-blue-700 text-sm font-semibold block mb-4">{card.num}</span>
-              <h3 className="font-bold text-slate-900 text-lg mb-3 leading-snug">{card.title}</h3>
+              <h3 className="!font-bold text-slate-900 text-2xl mb-3 leading-snug">{card.title}</h3>
               <p className="text-slate-600 text-sm leading-relaxed">{card.desc}</p>
             </div>
           ))}

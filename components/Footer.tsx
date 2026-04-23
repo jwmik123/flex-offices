@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const NAV_LINKS = [
   { href: "#home", label: "Home" },
   { href: "#ruimtes", label: "Ruimtes" },
@@ -13,8 +15,12 @@ export default function Footer() {
 
           {/* Logo + nav */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-6">
-            <a href="#home" className="text-xl font-bold tracking-tight">
-              Flex<span className="text-blue-400"> Offices</span>
+            <a href="#home" className="flex items-center gap-3">
+              <Image src="/flexlogo.png" alt="Flex Offices logo" width={48} height={48} />
+              <span className="flex flex-col" style={{ gap: "1px" }}>
+                <span className="text-base font-bold text-white tracking-wide leading-none">Flex</span>
+                <span className="text-base font-bold text-blue-400 tracking-wide leading-none">Offices</span>
+              </span>
             </a>
             {/* <nav className="flex flex-col gap-3">
               {NAV_LINKS.map(({ href, label }) => (

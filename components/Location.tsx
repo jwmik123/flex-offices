@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -67,13 +68,11 @@ export default function Location() {
             {/* Buttons */}
             <div className="flex flex-wrap items-center gap-3 pt-1">
               <a
-                href="#contact"
+                href="mailto:info@hoffstad.nl"
                 className="border border-white text-white font-semibold text-sm px-6 py-2.5 rounded hover:bg-white hover:text-slate-900 transition-colors duration-200 flex items-center gap-2"
               >
                 Plan rondleiding
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+                <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="https://maps.app.goo.gl/Fx4JqATA22MtKU388"

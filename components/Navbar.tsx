@@ -2,6 +2,8 @@
 
 import { useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -39,8 +41,12 @@ export default function Navbar() {
     >
       <div className="max-w-[90rem] mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-lg font-bold tracking-tight text-slate-900">
-          Flex<span className="text-blue-700"> Offices</span>
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/flexlogo.png" alt="Flex Offices logo" width={48} height={48} />
+          <span className="flex flex-col" style={{ gap: "1px" }}>
+            <span className="text-base font-bold text-slate-900 tracking-wide leading-none">Flex</span>
+            <span className="text-base font-bold text-blue-700 tracking-wide leading-none">Offices</span>
+          </span>
         </Link>
 
         {/* Center links — desktop only */}
@@ -66,12 +72,13 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <Link
-          href="/#contact"
-          className="bg-blue-700 text-white text-sm font-semibold px-5 py-2 rounded hover:bg-blue-800 transition-colors duration-200"
+        <a
+          href="mailto:info@hoffstad.nl"
+          className="bg-blue-700 text-white text-sm font-semibold px-5 py-2 rounded hover:bg-blue-800 transition-colors duration-200 flex items-center gap-2"
         >
           Plan rondleiding
-        </Link>
+          <ArrowRight className="w-4 h-4" />
+        </a>
       </div>
     </nav>
   );

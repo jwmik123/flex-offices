@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -138,10 +139,11 @@ export default function Hero() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  href="#contact"
-                  className="bg-blue-700 text-white font-semibold px-7 py-3 rounded hover:bg-blue-800 transition-colors duration-200"
+                  href="mailto:info@hoffstad.nl"
+                  className="bg-blue-700 text-white font-semibold px-7 py-3 rounded hover:bg-blue-800 transition-colors duration-200 flex items-center gap-2"
                 >
                   Plan rondleiding
+                  <ArrowRight className="w-4 h-4" />
                 </a>
                 <a
                   href="#galerij"
@@ -232,13 +234,11 @@ export default function Hero() {
             </div>
             <div className="flex flex-col items-end gap-3">
               <a
-                href="#contact"
+                href="mailto:info@hoffstad.nl"
                 className="bg-white text-blue-700 font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-50 transition-colors duration-200 flex items-center gap-2 text-base shadow-sm"
               >
                 Plan rondleiding
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+                <ArrowRight className="w-4 h-4" />
               </a>
               <span className="text-xs text-blue-400">Vrijblijvend · Geen wachttijd</span>
             </div>
