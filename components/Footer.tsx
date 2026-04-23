@@ -16,10 +16,10 @@ export default function Footer() {
           {/* Logo + nav */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-6">
             <a href="#home" className="flex items-center gap-3">
-              <Image src="/flexlogo.png" alt="Flex Offices logo" width={48} height={48} />
-              <span className="flex flex-col" style={{ gap: "1px" }}>
-                <span className="text-base font-bold text-white tracking-wide leading-none">Flex</span>
-                <span className="text-base font-bold text-blue-400 tracking-wide leading-none">Offices</span>
+              {/* <Image src="/flexlogo.png" alt="Flex Offices logo" width={48} height={48} /> */}
+              <span className="flex flex-col font-serif" style={{ gap: "1px" }}>
+                <span className="text-3xl font-bold text-slate-100 tracking-wide leading-none">Flex</span>
+                <span className="text-3xl font-bold text-blue-700 tracking-wide leading-none">Offices</span>
               </span>
             </a>
             {/* <nav className="flex flex-col gap-3">

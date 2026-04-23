@@ -39,13 +39,13 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50"
       style={{ backgroundColor: "transparent" }}
     >
-      <div className="max-w-[90rem] mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-[90rem] mx-auto px-6 lg:px-8 h-24 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/flexlogo.png" alt="Flex Offices logo" width={48} height={48} />
-          <span className="flex flex-col" style={{ gap: "1px" }}>
-            <span className="text-base font-bold text-slate-900 tracking-wide leading-none">Flex</span>
-            <span className="text-base font-bold text-blue-700 tracking-wide leading-none">Offices</span>
+          {/* <Image src="/flexlogo1.png" alt="Flex Offices logo" width={48} height={48} /> */}
+          <span className="flex flex-col font-serif" style={{ gap: "1px" }}>
+            <span className="text-3xl font-bold text-slate-900 tracking-wide leading-none">Flex</span>
+            <span className="text-3xl font-bold text-blue-700 tracking-wide leading-none">Offices</span>
           </span>
         </Link>
 
