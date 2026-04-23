@@ -33,7 +33,7 @@ export default function Gallery() {
 
   return (
     <section id="galerij" className="bg-slate-50 py-24 lg:py-32">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-[90rem] mx-auto px-6 lg:px-8">
 
         {/* Heading */}
         <div ref={headingRef} className="text-center mb-16">

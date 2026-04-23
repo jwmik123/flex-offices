@@ -4,7 +4,10 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Highlights from "@/components/Highlights";
 import Gallery from "@/components/Gallery";
-import Contact from "@/components/Contact";
+import Plattegrond from "@/components/Plattegrond";
+import Location from "@/components/Location";
+import Faq from "@/components/Faq";
+import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -19,10 +22,14 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
+        {/* <About /> */}
         <Highlights />
         <Gallery />
-        <Contact />
+        <Plattegrond />
+        <Location />
+        <Faq />
+        <Cta />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </>

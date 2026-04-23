@@ -37,7 +37,7 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50"
       style={{ backgroundColor: "transparent" }}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-[90rem] mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-lg font-bold tracking-tight text-slate-900">
           Flex<span className="text-blue-700"> Offices</span>
@@ -70,7 +70,7 @@ export default function Navbar() {
           href="/#contact"
           className="bg-blue-700 text-white text-sm font-semibold px-5 py-2 rounded hover:bg-blue-800 transition-colors duration-200"
         >
-          Neem contact op
+          Plan rondleiding
         </Link>
       </div>
     </nav>

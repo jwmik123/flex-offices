@@ -2,6 +2,13 @@
 
 @theme inline {
   --font-sans: var(--font-inter);
+  --font-serif: var(--font-serif);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif), Georgia, serif;
+  letter-spacing: 0.02em;
+  font-weight: 200;
 }
 
 html {

@@ -32,7 +32,7 @@ export default function About() {
     <section id="ruimtes" className="bg-blue-50 py-16 lg:py-20">
       <div
         ref={sectionRef}
-        className="max-w-7xl mx-auto px-6 lg:px-8"
+        className="max-w-[90rem] mx-auto px-6 lg:px-8"
       >
         {/* Two columns: title + paragraph left, paragraph right */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16">

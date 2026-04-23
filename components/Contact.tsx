@@ -48,7 +48,7 @@ export default function Contact() {
     <section id="contact" className="bg-blue-50 py-24 lg:py-32">
       <div
         ref={sectionRef}
-        className="max-w-7xl mx-auto px-6 lg:px-8"
+        className="max-w-[90rem] mx-auto px-6 lg:px-8"
       >
         {/* Section header */}
         <div className="mb-16">
@@ -175,10 +175,10 @@ export default function Contact() {
                 E-mail
               </span>
               <a
-                href="mailto:info@flexhoorn.nl"
+                href="mailto:info@hoffstad.nl"
                 className="text-slate-900 font-medium hover:text-blue-700 transition-colors"
               >
-                info@flexhoorn.nl
+                info@hoffstad.nl
               </a>
             </div>
 
@@ -187,10 +187,10 @@ export default function Contact() {
                 Telefoon
               </span>
               <a
-                href="tel:+31612345678"
+                href="tel:+31229213541"
                 className="text-slate-900 font-medium hover:text-blue-700 transition-colors"
               >
-                +31 6 12 34 56 78
+                0229 — 21 35 41
               </a>
             </div>
 
