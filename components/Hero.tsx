@@ -10,7 +10,7 @@ gsap.registerPlugin(useGSAP);
 
 const img = (n: number) => `/images/FotovanDana-Anodeweg%209A-${n}.jpg`;
 
-const IMAGES = [60, 8, 16, 24, 32, 40, 61, 62].map(img);
+const IMAGES = [60, 61, 16, 24, 32, 40, 8, 62].map(img);
 
 const STATS = [
   { value: "8",      label: "Nieuwe units"       },
