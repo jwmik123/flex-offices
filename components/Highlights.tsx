@@ -56,7 +56,7 @@ export default function Highlights() {
   });
 
   return (
-    <section className="bg-slate-50 py-24 lg:py-32">
+    <section id="waarom" className="bg-slate-50 py-24 lg:py-32">
       <div className="max-w-[90rem] mx-auto px-6 lg:px-8">
 
         {/* Top: 2-col */}

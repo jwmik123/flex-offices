@@ -58,10 +58,10 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/#ruimtes"
+            href="/#waarom"
             className="text-sm font-medium text-slate-700 hover:text-blue-700 transition-colors duration-200"
           >
-            Over ons
+            Waarom bij ons?
           </Link>
           <Link
             href="/galerij"

@@ -31,7 +31,7 @@ export default function Cta() {
         {/* Left — heading */}
         <div ref={leftRef}>
           <h2 className="text-6xl lg:text-[4.75rem] font-bold text-white leading-[1.05] tracking-tight">
-            Kom eens langs <br/>
+            Kom eens langs, <br/>
           
             geheel vrijblijvend.
           </h2>
