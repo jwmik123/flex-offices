@@ -107,7 +107,7 @@ export default function Hero() {
             </div> */}
 
             {/* Heading */}
-            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-bold text-slate-900 leading-[1.05] tracking-tight">
+            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-bold text-slate-900 leading-[1.05] tracking-tight pt-12 md:pt-24">
               {words.map((word, i) => (
                 <span
                   key={i}
@@ -220,7 +220,7 @@ export default function Hero() {
 
       {/* Bottom pricing card ─────────────────────────────────────────── */}
       <div className="bg-white pb-8 px-6 lg:px-8">
-        <div ref={bottomRef} className="max-w-[90rem] mx-auto pt-6">
+        <div ref={bottomRef} className="max-w-[90rem] mx-auto pt-8">
           <div className="bg-blue-800 rounded-2xl px-8 lg:px-12 py-7 flex items-center justify-between shadow-xl shadow-blue-900/20">
             <div>
               <span className="text-xs font-semibold tracking-[0.15em] uppercase text-blue-200">
