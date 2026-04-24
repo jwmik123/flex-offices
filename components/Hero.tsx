@@ -221,7 +221,7 @@ export default function Hero() {
       {/* Bottom pricing card ─────────────────────────────────────────── */}
       <div className="bg-white pb-8 px-6 lg:px-8">
         <div ref={bottomRef} className="max-w-[90rem] mx-auto pt-8">
-          <div className="bg-blue-800 rounded-2xl px-8 lg:px-12 py-7 flex items-center justify-between shadow-xl shadow-blue-900/20">
+          <div className="bg-blue-800 rounded-2xl px-8 lg:px-12 py-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 sm:gap-0 shadow-xl shadow-blue-900/20">
             <div>
               <span className="text-xs font-semibold tracking-[0.15em] uppercase text-blue-200">
                 Al beschikbaar vanaf
@@ -232,10 +232,10 @@ export default function Hero() {
               </div>
               <p className="text-xs text-blue-400 mt-0.5">Incl. servicekosten, excl. BTW</p>
             </div>
-            <div className="flex flex-col items-end gap-3">
+            <div className="flex flex-col items-start sm:items-end gap-3 w-full sm:w-auto">
               <a
                 href="mailto:info@hoffstad.nl"
-                className="bg-white text-blue-700 font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-50 transition-colors duration-200 flex items-center gap-2 text-base shadow-sm"
+                className="bg-white text-blue-700 font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-50 transition-colors duration-200 flex items-center justify-center gap-2 text-base shadow-sm w-full sm:w-auto"
               >
                 Plan rondleiding
                 <ArrowRight className="w-4 h-4" />
