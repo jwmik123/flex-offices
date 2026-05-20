@@ -44,8 +44,8 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           {/* <Image src="/flexlogo1.png" alt="Flex Offices logo" width={48} height={48} /> */}
           <span className="flex flex-col font-serif" style={{ gap: "1px" }}>
-            <span className="text-3xl font-bold text-slate-900 tracking-wide leading-none">Flex</span>
-            <span className="text-3xl font-bold text-blue-700 tracking-wide leading-none">Offices</span>
+            <span className="text-2xl font-bold text-slate-900 tracking-wide leading-none">Flex</span>
+            <span className="text-2xl font-bold text-blue-700 tracking-wide leading-none">Offices</span>
           </span>
         </Link>
 

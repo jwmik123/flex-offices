@@ -107,7 +107,7 @@ export default function Hero() {
             </div> */}
 
             {/* Heading */}
-            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-bold text-slate-900 leading-[1.05] tracking-tight pt-12 md:pt-24">
+            <h1 className="text-6xl md:text-7xl lg:text-[4rem] font-bold text-slate-900 leading-[1.05] tracking-tight pt-12 md:pt-24">
               {words.map((word, i) => (
                 <span
                   key={i}
